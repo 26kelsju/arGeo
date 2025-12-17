@@ -10,13 +10,24 @@
 
       <a-camera gps-camera rotation-reader></a-camera>
 
-      <!-- Stop 1 -->
+      <!-- Stop 1: Our class lat 39.2793474 lon -84.2756926 -->
       <a-text
         value="Welcome to LHS!"
         scale="12 12 12"
         color="yellow"
-        gps-entity-place="latitude:00.00000; longitude: 00.00000;"
-      ></a-text>
+        gps-entity-place="latitude:39.2793474; longitude: -84.2756926;">
+        </a-text>
+      <!-- Load the Blender file -->
+	  	<a-assets>
+	  		<a-asset-item id="model1" src="arElement1.glb"></a-asset-item>
+	  	</a-assets>
+	  	<!-- Display as AR element -->
+	  	<a-entity gltf-model="#model1" gps-entity-place="latitude: 39.2793474; longitude: -84.2756926;"></a-entity>
+  
+      <!-- Stop 2: Front doors lat 39.2795617 lon -84.2748556 -->
+      
+      <!-- Stop 3: To parking lot lat 39.2796157 lon -84.2759409 -->
+      
     </a-scene>
   </body>
 </html>
