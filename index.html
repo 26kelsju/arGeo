@@ -10,27 +10,27 @@
 
       <a-camera gps-camera rotation-reader></a-camera>
 
-      <!-- Stop 1: Our class lat 39.2793474 lon -84.2756926 -->
+      <!-- Stop 1: Our class -->
       <!-- Load the Blender file -->
 	  	<a-assets>
 	  		<a-asset-item id="model1" src="arElement1.glb"></a-asset-item>
 	  	</a-assets>
 	  	<!-- Display as AR element -->
-	  	<a-entity gltf-model="#model1" gps-entity-place="latitude: 39.2793474; longitude: -84.2756926;"></a-entity>
+	  	<a-entity gltf-model="#model1" gps-entity-place="latitude: 39.27943; longitude: -84.27569;"></a-entity>
   
-      <!-- Stop 2: Front doors lat 39.2795617 lon -84.2748556 -->
+      <!-- Stop 2: Front doors  -->
       <a-text
 		value="Welcome to LHS!"
         scale="20 20 20"
         color="red"
-        gps-entity-place="latitude:39.2795617; longitude: -84.2748556;">
+        gps-entity-place="latitude:39.27959; longitude: -84.27576;">
 		</a-text>
-      <!-- Stop 3: To parking lot lat 39.2796157 lon -84.2759409 -->
+      <!-- Stop 3: To parking lot  -->
       <a-text
         value="Welcome to the parking lot!"
         scale="20 20 20"
         color="blue"
-        gps-entity-place="latitude:39.2796157; longitude: -84.2759409;">
+        gps-entity-place="latitude:39.27916; longitude: -84.27581;">
         </a-text>
     </a-scene>
   </body>
