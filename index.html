@@ -12,8 +12,6 @@
 		<a-assets>
 	  		<a-asset-item id="model1" src="arElement1.glb"></a-asset-item>
 	  	</a-assets>
-		
-
 
       <!-- Stop 1 -->
 	 	
@@ -22,21 +20,24 @@
 		</a-entity>
 		
       <!-- Stop 2  -->
+	<a-entity gps-entity-place="latitude: 39.2794314; longitude: -84.2756920;" >	
       <a-text
+		position="0 0 0"
 		value="Welcome!"
         scale="20 20 20"
-        color="red"
-        gps-entity-place="latitude:39.2795904; longitude: -84.2757615;">
+        color="red">
 		</a-text>
+	</a-entity>
       <!-- Stop 3  -->
+	<a-entity gps-entity-place="latitude: 39.2794314; longitude: -84.2756920;" >
       <a-text
+		position="0 0 0"
         value="Goodbye!"
         scale="20 20 20"
         color="blue"
-		rotation="180 0 0"
-        gps-entity-place="latitude:39.2791649; longitude: -84.2758109;">
+		rotation="180 0 0">
         </a-text>
+	</a-entity>
     </a-scene>
   </body>
 </html>
-
